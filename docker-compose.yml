@@ -3,6 +3,7 @@ version: '3.7'
 services:
 
   stratton-ashwood-test:
+    tty: true
     container_name: stratton-ashwood-test
     build:
       context: .
