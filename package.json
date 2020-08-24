@@ -15,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docker": "docker build -t stratton-ashwood-test:dev ."
+    "docker": "docker build -t stratton-ashwood-test:dev .",
+    "docker-compose": "docker-compose up -d --build"
   },
   "eslintConfig": {
     "extends": "react-app"
